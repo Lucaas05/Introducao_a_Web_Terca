@@ -1,58 +1,58 @@
 /* Estilos básicos para centralizar o conteúdo e ajustar a imagem */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Faz com que a página ocupe toda a altura da janela */
+    font-family: Arial, sans-serif; /* Define a fonte padrão como Arial, com sans-serif como alternativa */
+    background-color: #f4f4f4; /* Define a cor de fundo da página como um cinza claro */
+    margin: 0; /* Remove margens padrão do navegador */
+    padding: 0; /* Remove preenchimento padrão do navegador */
+    display: flex; /* Usa o layout flexível para organizar os itens dentro do corpo */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    min-height: 100vh; /* Garante que a página ocupe toda a altura da janela do navegador */
 }
 
 header {
-    background-color: #4CAF50;
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-    color: white;
+    background-color: #4CAF50; /* Define a cor de fundo do cabeçalho como verde */
+    padding: 20px; /* Adiciona espaço interno de 20 pixels ao redor do conteúdo */
+    text-align: center; /* Centraliza o texto dentro do cabeçalho */
+    width: 100%; /* Faz o cabeçalho ocupar toda a largura da tela */
+    color: white; /* Define a cor do texto como branco */
 }
 
 main {
-    text-align: center;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto dentro do elemento main */
+    background-color: white; /* Define a cor de fundo como branca */
+    padding: 20px; /* Adiciona espaço interno de 20 pixels ao redor do conteúdo */
+    border-radius: 10px; /* Adiciona cantos arredondados de 10 pixels */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra ao redor do elemento */
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 150px; /* Define a largura da imagem como 150 pixels */
+    height: 150px; /* Define a altura da imagem como 150 pixels */
     border-radius: 50%; /* Faz a imagem ficar redonda */
-    margin-bottom: 21px;
+    margin-bottom: 21px; /* Adiciona espaço abaixo da imagem */
 }
 
 /* Estilos para as seções */
 h2 {
-    margin-top: 20px;
-    color: #333;
+    margin-top: 20px; /* Adiciona espaço acima do título da seção */
+    color: #333; /* Define a cor do texto como um cinza escuro */
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
 }
 
 ul li {
-    margin: 11px 0;
+    margin: 11px 0; /* Adiciona espaço acima e abaixo de cada item da lista */
 }
 
 a {
-    color: #4CAF50;
-    text-decoration: none;
+    color: #4CAF50; /* Define a cor dos links como verde */
+    text-decoration: none; /* Remove o sublinhado dos links */
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse sobre o link */
 }
