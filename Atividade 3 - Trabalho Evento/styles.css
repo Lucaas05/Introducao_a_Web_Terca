@@ -1,41 +1,109 @@
+/* Estilos gerais do corpo da página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    margin: 0;
-    padding: 0;
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    background-color: #eaeaea; /* Cor de fundo suave */
+    color: #333; /* Cor do texto principal */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
 }
 
+/* Estilos do cabeçalho e rodapé */
 header, footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+    background: linear-gradient(135deg, #1e1e1e 0%, #4a4a4a 100%); /* Gradiente de fundo */
+    color: #ffffff; /* Cor do texto em branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 0; /* Aumenta o espaço interno */
 }
 
+/* Estilo do título do cabeçalho */
+header h1 {
+    color: #ffffff; /* Define a cor do texto do cabeçalho como branco */
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Estilos do menu de navegação */
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento da lista */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 15px;
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 30px; /* Aumenta o espaço entre os itens do menu */
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: #ffffff; /* Cor dos links em branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Torna os links em negrito */
+    padding: 8px 12px; /* Adiciona preenchimento ao redor do texto do link */
+    border-radius: 5px; /* Arredonda os cantos do botão de link */
+    transition: background-color 0.3s, color 0.3s; /* Animação suave para a mudança de cor */
 }
 
+nav ul li a:hover {
+    background-color: #ffcc00; /* Cor de fundo dos links ao passar o mouse */
+    color: #1e1e1e; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilos do conteúdo principal */
 main {
-    padding: 20px;
+    padding: 30px; /* Espaçamento interno da seção principal */
+    max-width: 800px; /* Limita a largura da seção principal */
+    margin: 20px auto; /* Centraliza a seção principal na página com margem */
+    background-color: #ffffff; /* Fundo branco para destacar o conteúdo */
+    border-radius: 10px; /* Arredonda os cantos */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada para efeito de profundidade */
 }
 
+/* Estilos para os cabeçalhos */
 h1, h2 {
-    color: #333;
+    color: #333; /* Cor do texto dos cabeçalhos */
+    margin-bottom: 15px; /* Espaçamento abaixo dos cabeçalhos */
 }
 
+/* Estilos do rodapé */
 footer p {
-    font-size: 0.8em;
+    font-size: 0.8em; /* Tamanho do texto do rodapé menor */
+}
+
+/* Estilo adicional para listas */
+ul {
+    padding-left: 20px; /* Adiciona espaço à esquerda nas listas */
+}
+
+/* Estilos para campos de formulário */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 22px); /* Largura responsiva para campos de entrada */
+    padding: 10px; /* Preenchimento interno */
+    margin: 10px 0; /* Margem superior e inferior */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 5px; /* Arredonda os cantos */
+    transition: border-color 0.3s; /* Animação para a mudança de cor da borda */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #ffcc00; /* Cor da borda ao focar no campo */
+    outline: none; /* Remove a borda de foco padrão */
+}
+
+/* Estilo do botão de enviar */
+input[type="submit"] {
+    background-color: #ffcc00; /* Cor de fundo do botão */
+    color: #1e1e1e; /* Cor do texto do botão */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    padding: 10px 20px; /* Preenchimento do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s, transform 0.3s; /* Animação para mudança de cor e efeito de clique */
+}
+
+input[type="submit"]:hover {
+    background-color: #1e1e1e; /* Cor de fundo ao passar o mouse no botão */
+    color: #ffffff; /* Cor do texto ao passar o mouse no botão */
+    transform: scale(1.05); /* Aumenta levemente o botão ao passar o mouse */
 }
