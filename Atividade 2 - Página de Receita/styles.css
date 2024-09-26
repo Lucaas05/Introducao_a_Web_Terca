@@ -1,0 +1,77 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif; /* Fonte personalizada do Google Fonts */
+    text-align: center;
+    color: #4CAF50; /* Destaque para o título */
+}
+
+.image-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-section img {
+    width: 300px;
+    height: auto;
+    border: 4px solid #ddd; /* Borda ao redor da imagem */
+    border-radius: 10px;
+}
+
+/* Ingredientes */
+.ingredientes {
+    background-color: #fff;
+    padding: 13px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.ingredientes h2 {
+    color: #ff6347; /* Cor de destaque para o título da seção */
+}
+
+.ingredientes ul {
+    list-style-type: square; /* Marcadores personalizados */
+    padding-left: 20px;
+}
+
+/* Passos de preparação */
+.preparacao {
+    background-color: #f4f4f4; /* Fundo claro para destacar a seção */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.preparacao h2 {
+    color: #4CAF50; /* Cor destacada */
+}
+
+.preparacao ol {
+    padding-left: 20px;
+}
+
+/* Dica */
+.dica {
+    background-color: #fffbea;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dica h2 {
+    color: #ffa500; /* Destaque da dica */
+}
+
+.dica p {
+    font-style: italic;
+}
