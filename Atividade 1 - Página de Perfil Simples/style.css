@@ -1,0 +1,58 @@
+/* Estilos básicos para centralizar o conteúdo e ajustar a imagem */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Faz com que a página ocupe toda a altura da janela */
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Faz a imagem ficar redonda */
+    margin-bottom: 21px;
+}
+
+/* Estilos para as seções */
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 11px 0;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
