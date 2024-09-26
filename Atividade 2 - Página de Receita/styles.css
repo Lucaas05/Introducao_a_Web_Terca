@@ -1,77 +1,77 @@
 /* Estilos globais */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
-    margin: 0;
-    padding: 20px;
+    font-family: Arial, sans-serif; /* Define a fonte padrão como Arial, com sans-serif como alternativa */
+    background-color: #f8f8f8; /* Define a cor de fundo da página como um cinza muito claro */
+    color: #333; /* Define a cor do texto como um cinza escuro */
+    margin: 0; /* Remove margens padrão do navegador */
+    padding: 20px; /* Adiciona um preenchimento de 20 pixels ao redor do corpo da página */
 }
 
 header h1 {
-    font-family: 'Poppins', sans-serif; /* Fonte personalizada do Google Fonts */
-    text-align: center;
-    color: #4CAF50; /* Destaque para o título */
+    font-family: 'Poppins', sans-serif; /* Fonte personalizada do Google Fonts para o título */
+    text-align: center; /* Centraliza o texto do título */
+    color: #4CAF50; /* Define a cor do título como verde */
 }
 
 .image-section {
-    text-align: center;
-    margin: 20px 0;
+    text-align: center; /* Centraliza o conteúdo da seção de imagem */
+    margin: 20px 0; /* Adiciona margem vertical de 20 pixels em cima e embaixo */
 }
 
 .image-section img {
-    width: 300px;
-    height: auto;
-    border: 4px solid #ddd; /* Borda ao redor da imagem */
-    border-radius: 10px;
+    width: 300px; /* Define a largura da imagem como 300 pixels */
+    height: auto; /* Mantém a proporção da imagem automaticamente */
+    border: 4px solid #ddd; /* Adiciona uma borda de 4 pixels ao redor da imagem com cor cinza claro */
+    border-radius: 10px; /* Arredonda os cantos da borda da imagem */
 }
 
 /* Ingredientes */
 .ingredientes {
-    background-color: #fff;
-    padding: 13px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    background-color: #fff; /* Define a cor de fundo da seção de ingredientes como branco */
+    padding: 13px; /* Adiciona preenchimento de 13 pixels ao redor da seção */
+    border-radius: 8px; /* Arredonda os cantos da seção de ingredientes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil à seção */
+    margin-bottom: 20px; /* Adiciona margem inferior de 20 pixels para separação */
 }
 
 .ingredientes h2 {
-    color: #ff6347; /* Cor de destaque para o título da seção */
+    color: #ff6347; /* Define a cor do título da seção de ingredientes como um tom de vermelho-alaranjado */
 }
 
 .ingredientes ul {
-    list-style-type: square; /* Marcadores personalizados */
-    padding-left: 20px;
+    list-style-type: square; /* Define marcadores quadrados para a lista de ingredientes */
+    padding-left: 20px; /* Adiciona um preenchimento à esquerda na lista */
 }
 
 /* Passos de preparação */
 .preparacao {
-    background-color: #f4f4f4; /* Fundo claro para destacar a seção */
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    background-color: #f4f4f4; /* Define a cor de fundo da seção de preparo como um cinza claro */
+    padding: 15px; /* Adiciona preenchimento de 15 pixels ao redor da seção */
+    border-radius: 8px; /* Arredonda os cantos da seção de preparo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil à seção */
+    margin-bottom: 20px; /* Adiciona margem inferior de 20 pixels para separação */
 }
 
 .preparacao h2 {
-    color: #4CAF50; /* Cor destacada */
+    color: #4CAF50; /* Define a cor do título da seção de preparo como verde */
 }
 
 .preparacao ol {
-    padding-left: 20px;
+    padding-left: 20px; /* Adiciona um preenchimento à esquerda na lista ordenada */
 }
 
 /* Dica */
 .dica {
-    background-color: #fffbea;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fffbea; /* Define a cor de fundo da seção de dicas como um amarelo muito claro */
+    padding: 15px; /* Adiciona preenchimento de 15 pixels ao redor da seção */
+    border-radius: 8px; /* Arredonda os cantos da seção de dicas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil à seção */
 }
 
 .dica h2 {
-    color: #ffa500; /* Destaque da dica */
+    color: #ffa500; /* Define a cor do título da seção de dicas como laranja */
 }
 
 .dica p {
-    font-style: italic;
+    font-style: italic; /* Aplica estilo itálico ao texto do parágrafo na seção de dicas */
 }
